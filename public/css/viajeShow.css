@@ -1,0 +1,76 @@
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.info p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.info p strong {
+    display: inline-block;
+    width: 150px;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.modify-button, .delete-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.modify-button:hover, .delete-button:hover {
+    background-color: #1c5985;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+.delete-form {
+    display: inline-block;
+}
+
+.delete-form input[type="submit"] {
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0;
+}
